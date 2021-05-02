@@ -2,6 +2,50 @@
   text-align: center;
 }
 
+
+.banner-text{
+  
+  opacity: .8;
+  width:75%;
+  margin:auto;
+  
+}
+
+
+.banner-text h1 {
+  font-size: 66x;
+  
+  color: white;
+}
+
+.banner-text hr {
+  border-top:  dotted white ;
+  width: 50%;
+  height: 10px;
+  margin: auto;
+}
+
+h5{
+  font-weight: bold;
+  margin-top: -20px !important;  
+  margin-bottom: 30px !important;
+}
+.banner-text p {
+  color:white;
+  font-size:20px;
+  padding: 1em;
+}
+
+.nom{
+  color:white;
+  margin-top: -10%;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+ 
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -12,6 +56,11 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+
+
+
+
 
 .App-header {
   background-color: #282c34;

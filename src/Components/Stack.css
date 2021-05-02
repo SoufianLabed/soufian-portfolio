@@ -1,0 +1,30 @@
+
+.progress-done2 {
+	background: #92B9E3 ;
+	box-shadow: 0 3px 3px -5px #92B9E3 , 0 2px 5px #92B9E3 ;
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+/*
+PALETTE
+
+6C7EE1 • 92B9E3 • FFC4A4 • FBA2D0 • C688EB
+
+
+252A48
+
+E45D68
+
+6640F5
+
+5ABEF9
+*/
+
