@@ -13,7 +13,7 @@ export default {
           [
             { img:   process.env.PUBLIC_URL + '/assets/Hikomori.png', name: 'Hikikomori',description:'Design and development of a japanese library web app in reactjs and nodejs. Team of 4  ', git:"https://github.com/damien77640/hikomori_front" },
             { img:  process.env.PUBLIC_URL + '/assets/pokedex.jpg', name: 'Pokedex',description:'School project : creation of a website in react using a server express ', git:"https://github.com/SoufianLabed/cx-react-pokemon" },
-            { img:  process.env.PUBLIC_URL + '/assets/udp_tcp.png', name: 'Personnal Web Site',description:'Design and development of my personal portfolio. This project was done solo', git:"https://github.com/SoufianLabed/portoflio-Soufian" },],
+            { img:  process.env.PUBLIC_URL + '/assets/por.png', name: 'Personnal Web Site',description:'Design and development of my personal portfolio. This project was done solo', git:"https://github.com/SoufianLabed/portoflio-Soufian" },],
             [
               { img:   process.env.PUBLIC_URL + '/assets/maths.png', name: 'Calcul App Game',description:'Developpement of a Maths calcul Game in Android. Solo' , git:"https://github.com/SoufianLabed/CalculAndroidApp"},] 
 
