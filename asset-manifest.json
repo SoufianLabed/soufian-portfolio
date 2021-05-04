@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/soufian-portfolio/static/css/main.66741fdb.chunk.css",
-    "main.js": "/soufian-portfolio/static/js/main.a82663e0.chunk.js",
-    "main.js.map": "/soufian-portfolio/static/js/main.a82663e0.chunk.js.map",
+    "main.js": "/soufian-portfolio/static/js/main.e05e015d.chunk.js",
+    "main.js.map": "/soufian-portfolio/static/js/main.e05e015d.chunk.js.map",
     "runtime-main.js": "/soufian-portfolio/static/js/runtime-main.0d6d1f09.js",
     "runtime-main.js.map": "/soufian-portfolio/static/js/runtime-main.0d6d1f09.js.map",
     "static/css/2.7f93eb10.chunk.css": "/soufian-portfolio/static/css/2.7f93eb10.chunk.css",
@@ -25,6 +25,6 @@
     "static/css/2.7f93eb10.chunk.css",
     "static/js/2.7b9952ff.chunk.js",
     "static/css/main.66741fdb.chunk.css",
-    "static/js/main.a82663e0.chunk.js"
+    "static/js/main.e05e015d.chunk.js"
   ]
 }
