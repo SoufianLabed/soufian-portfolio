@@ -58,8 +58,9 @@ export default function Header() {
 
           </h1>
 
-          
-           <Download/>
+          <div className="animate-bounce mt-3">
+            <Download />
+           </div>
          
 
           
