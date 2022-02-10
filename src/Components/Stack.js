@@ -9,10 +9,6 @@ import 'react-circular-progressbar/dist/styles.css';
 
 
 
-
-
-
-
 import content from '../content';
 
 export default function Stack() {
@@ -50,18 +46,13 @@ export default function Stack() {
 
     
     <div
-      className="h-auto flex items-center justify-center flex-col pb-16"
+      className="h-auto flex items-center justify-center flex-col"
       style={{
         background: '#eee',
       }}
       id="Stack"
     >
-      <h1 className="text-5xl font-dosis font-bold mt-10">Technical Skills</h1>
-      <div className="mt-10">
-
-   
-      
-      
+      <h1 className="text-5xl font-dosis font-bold mt-10">Technical Skills</h1>      
         
         <div className="flex flex-wrap justify-center m-5">
         
@@ -87,8 +78,6 @@ export default function Stack() {
               </CircularProgressbarWithChildren>
               
             </span>
-
-        
           ))}
         </div>
 
@@ -101,9 +90,6 @@ export default function Stack() {
                 index % 2 !== 0 ? 'animate-bounce' : 'animate-bounceFirst'
               }`}
             >
-          
-
-
               <CircularProgressbarWithChildren  strokeWidth={6} value={tech.value} styles={buildStyles({
           
           pathColor: "#6C7EE1 ",
@@ -120,50 +106,32 @@ export default function Stack() {
         
           ))}
         </div>
-              
-
-        </div>
         
       </div>
 
 
 
-        <div className="h-auto pb-40 "   style={{
+        <div className="flex items-center justify-center flex-col py-16"   style={{
           background: '#eee',
          }}>
 
-      
-          <div className="md:flex max-w-ms mx-20 justify-center">
-
-    
-            
-            <div className="md:w-4/12 w-12/12 mb-8  ">
-            <p className="font-dosis font-bold text-2xl mb-4 ml-4  max-w-ms ">UML</p>
+          <div class="md:grid md:grid-cols-2 md:grid-rows-2 w-8/12 ">
+            <div className="">
+              <p className="font-dosis font-bold text-2xl mb-4 ml-4 ">UML</p>
               <Progress2  done="75"/>  
             </div>
-     
-            <div className="md:w-4/12  w-12/12   ">
-            <p className="font-dosis font-bold text-2xl m-2  max-w-ms ">Git</p>
+            <div className="">
+              <p className="font-dosis font-bold text-2xl mb-4 ml-4 ">Versionning (Git)</p>
               <Progress2  done="85"/>  
             </div>
-
-          </div>
-
-         
-   
-      
-          <div className="md:flex max-w-ms mt-8 max-w-ms mx-20  justify-center">
-
-            <div className="md:w-4/12 w-12/12 mb-8  ">
-            <p className="font-dosis font-bold text-2xl m-4  max-w-ms ">Object-oriented programming</p>
-              <Progress2  done="80"/>  
+            <div className="">
+              <p className="font-dosis font-bold text-2xl mb-4 ml-4 ">Object-oriented programming</p>
+              <Progress2  done="85"/>  
             </div>
-     
-            <div className="md:w-4/12  w-12/12   ">
-              <p className="font-dosis font-bold text-2xl m-4  max-w-ms ">Project management</p>
+            <div className="">
+              <p className="font-dosis font-bold text-2xl mb-4 ml-4 ">Project management</p>
               <Progress2  done="95"/>  
             </div>
-
           </div>
 
         </div>

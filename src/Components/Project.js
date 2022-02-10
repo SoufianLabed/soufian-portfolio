@@ -123,8 +123,8 @@ export default function Project() {
 
     
     return (
-      <div>
-          <h1 className="justify-center text-center m-12 text-3xl font-bold font-dosis">Projects</h1>
+      <div style={{backgroundColor:""}}>
+          <h1 className="justify-center text-center pt-12 text-3xl font-bold font-dosis">Projects</h1>
     <div className="md:mx-56 mt-10" >
      <AppBar position="static" color="red">
         <Tabs
@@ -154,12 +154,12 @@ export default function Project() {
 
           {content.project.links[3].map((tech, index) => (
             <div
-              className="p-8"
+              className="p-6"
               key={index}
            
             >
 
-        <Card  className=" w-72 h-96 shadow-2xl font-dosis  ">
+          <Card  className=" w-72 h-96 shadow-2xl font-dosis  ">
           
           <CardActionArea>
               <CardMedia

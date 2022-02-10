@@ -2,6 +2,7 @@ import React from 'react';
 import { Link as ScrollLink } from 'react-scroll';
 import content from '../content';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import './School.css'
 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -12,34 +13,31 @@ export default function School() {
   return (
    
 
-        <div
-        style={{
-          
-        backgroundImage: `url(${night})`     
-            
-        }} className="bg-cover bg-fixed">
+        <div className="" style={{background:"#eee"}}>
 
+
+        <h1 className="text-5xl font-dosis font-bold pt-10 pb-10 text-center text-black">Technical Skills</h1>     
         <VerticalTimeline>
 
             <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'rgb(33,37,41,255 )', color: '#fff' }}
+                        contentStyle={{ background: '#6C7EE1', color: '#fff' }}
 
-                        contentArrowStyle={{ borderRight: '7px solid  rgb(33,37,41,255)' }}
+                        contentArrowStyle={{ borderRight: '7px solid  #6C7EE1' }}
 
 
-                        iconStyle={{ background: 'rgb(33,37,41,255)', color: '#fff'}}
+                        iconStyle={{ background: '#6C7EE1', color: '#fff'}}
                         
                     >
-                        <h3 className="vertical-timeline-element-title">MASTER Dev Manager Fullstack</h3>
-                        <br/><h4 className="vertical-timeline-element-subtitle"><a href="http://odf.univ-paris13.fr/fr/offre-de-formation/feuilleter-le-catalogue-1/sciences-technologies-sante-STS/dut-CB/dut-informatique-program-vdtin-316-2.html" id="ecole">EFREI Paris</a></h4>
+                        <h3 className="vertical-timeline-element-title text-xl font-bold">MASTER Dev Manager Fullstack</h3>
+                        <br/><h4 className="vertical-timeline-element-subtitle">EFREI Paris <i style={{marginLeft:"10px"}}class="fa fa-calendar" aria-hidden="true"></i> September 2021 - July 2023<a href="http://odf.univ-paris13.fr/fr/offre-de-formation/feuilleter-le-catalogue-1/sciences-technologies-sante-STS/dut-CB/dut-informatique-program-vdtin-316-2.html" id="ecole"></a></h4>
                         
-                    <h4 style={{borderRadius:"10px",opacity:"1",marginTop:"15px"}} className="date"><i style={{marginLeft:"10px"}}class="fa fa-calendar" aria-hidden="true"></i> September 2021 - July 2023</h4>
-                    <p className="description">The Master Dev Manager Full Stack Efrei Paris - 3iL aims to train dev experts, competent to contribute to and manage each stage of the creation cycle of a site or an application, from development to production. This master's degree delivers a level 7 RNCP title.</p>
+                    
+                    <p className="">The Master Dev Manager Full Stack Efrei Paris - 3iL aims to train dev experts, competent to contribute to and manage each stage of the creation cycle of a site or an application, from development to production. This master's degree delivers a level 7 RNCP title.</p>
                     
                     <p style={{color:"white",fontWeight:"bold",fontSize:"17px"}}>PROGRAM</p>
 
-                    <ul className="programme">
+                    <ul className="list-disc pl-4">
                         <li>Web & Mobil DEVELOPEMENT</li>
                         <li>DATA & CLOUD</li>
                         <li>IA</li>
@@ -52,12 +50,12 @@ export default function School() {
 
             <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33,37,41,255 )', color: '#fff' }}
+            contentStyle={{ background: '#6C7EE1', color: '#fff' }}
 
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33,37,41,255)' }}
+            contentArrowStyle={{ borderRight: '7px solid  #6C7EE1' }}
 
 
-            iconStyle={{ background: 'rgb(33,37,41,255)', color: '#fff'}}
+            iconStyle={{ background: '#6C7EE1', color: '#fff'}}
             
             >
             <h3 className="vertical-timeline-element-title">Bachelor's degree Conceptor / Developer </h3>
@@ -70,12 +68,12 @@ export default function School() {
 
             <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33,37,41,255 )', color: '#fff' }}
+            contentStyle={{ background: '#6C7EE1', color: '#fff' }}
 
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33,37,41,255)' }}
+            contentArrowStyle={{ borderRight: '7px solid  #6C7EE1' }}
 
 
-            iconStyle={{ background: 'rgb(33,37,41,255)', color: '#fff'}}
+            iconStyle={{ background: '#6C7EE1', color: '#fff'}}
             
             >
             <h3 className="vertical-timeline-element-title">Computer Science Technology degree (DUT Informatique) </h3>
@@ -99,12 +97,12 @@ export default function School() {
 
             <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33,37,41,255 )', color: '#fff' }}
+            contentStyle={{ background: '#6C7EE1', color: '#fff' }}
 
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33,37,41,255)' }}
+            contentArrowStyle={{ borderRight: '7px solid  #6C7EE1' }}
 
 
-            iconStyle={{ background: 'rgb(33,37,41,255)', color: '#fff'}}
+            iconStyle={{ background: '#6C7EE1', color: '#fff'}}
             
             >
                 <h3 className="titre" > High-School Diploma/Degree scientific option</h3>
