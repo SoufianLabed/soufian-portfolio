@@ -123,8 +123,8 @@ export default function Project() {
 
     
     return (
-      <div style={{backgroundColor:""}}>
-          <h1 className="justify-center text-center pt-12 text-3xl font-bold font-dosis">Projects</h1>
+      <div id="Projects">
+          <h1 className="justify-center text-center text-5xl font-dosis font-bold pt-10 pb-10 text-center text-black">Projects</h1>
     <div className="md:mx-56 mt-10" >
      <AppBar position="static" color="red">
         <Tabs
@@ -409,8 +409,6 @@ export default function Project() {
 
           </CardActions>
           </Card>
-
-
 
 
             </div>

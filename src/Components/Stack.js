@@ -42,7 +42,7 @@ export default function Stack() {
 
 
   return (
-    <div>
+    <div class="TechnicalSkill">
 
     
     <div
@@ -115,7 +115,7 @@ export default function Stack() {
           background: '#eee',
          }}>
 
-          <div class="md:grid md:grid-cols-2 md:grid-rows-2 w-8/12 ">
+          <div class="md:grid md:grid-cols-2 md:grid-rows-2 w-8/12 " style={{backgroundColor:"#eee"}}>
             <div className="">
               <p className="font-dosis font-bold text-2xl mb-4 ml-4 ">UML</p>
               <Progress2  done="75"/>  

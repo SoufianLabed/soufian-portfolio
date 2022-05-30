@@ -6,8 +6,35 @@
   }
 
   .social-links i{
-    color: white;
-    font-size: 6em;
- 
+    font-size: 5em;
+
+    --tw-bg-opacity: 1;
+    color: rgba(17, 24, 39, var(--tw-bg-opacity));
    }
 
+
+@media (max-width: 750px){
+
+  .social-links i{
+    font-size: 5em;
+
+    --tw-bg-opacity: 1;
+    color: rgba(17, 24, 39, var(--tw-bg-opacity));
+   }
+
+   .social-links{
+     text-align: center;
+      width: 90%;
+   }
+
+   .title{
+     font-size: 30px;
+   }
+
+   .header{
+     padding-top: 150px ;
+   }
+
+
+
+}

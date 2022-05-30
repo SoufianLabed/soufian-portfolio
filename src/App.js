@@ -14,18 +14,11 @@ import Project from './Components/Project'
 function App() {
   return (
     <div>
-
-      <Navigation/>
       <Header/>
       <Stack/>
       <School/>
       <Project/>
-
-
-
-
-
-      </div>
+    </div>
 
     
   );

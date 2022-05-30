@@ -12,6 +12,7 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px',
     },
+    
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -547,6 +548,7 @@ module.exports = {
       0: '0px',
       full: '100%',
       screen: '100vh',
+      '1/2': '50%'
     },
     minWidth: {
       0: '0px',
