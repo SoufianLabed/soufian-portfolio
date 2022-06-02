@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/soufian-portfolio/static/css/main.637b372f.chunk.css",
-    "main.js": "/soufian-portfolio/static/js/main.ed850ef8.chunk.js",
-    "main.js.map": "/soufian-portfolio/static/js/main.ed850ef8.chunk.js.map",
+    "main.css": "/soufian-portfolio/static/css/main.57d1ad92.chunk.css",
+    "main.js": "/soufian-portfolio/static/js/main.5c8e2fe9.chunk.js",
+    "main.js.map": "/soufian-portfolio/static/js/main.5c8e2fe9.chunk.js.map",
     "runtime-main.js": "/soufian-portfolio/static/js/runtime-main.472233f8.js",
     "runtime-main.js.map": "/soufian-portfolio/static/js/runtime-main.472233f8.js.map",
     "static/css/2.7f93eb10.chunk.css": "/soufian-portfolio/static/css/2.7f93eb10.chunk.css",
-    "static/js/2.39d5fdb3.chunk.js": "/soufian-portfolio/static/js/2.39d5fdb3.chunk.js",
-    "static/js/2.39d5fdb3.chunk.js.map": "/soufian-portfolio/static/js/2.39d5fdb3.chunk.js.map",
+    "static/js/2.b9c76547.chunk.js": "/soufian-portfolio/static/js/2.b9c76547.chunk.js",
+    "static/js/2.b9c76547.chunk.js.map": "/soufian-portfolio/static/js/2.b9c76547.chunk.js.map",
     "static/js/3.3a64bed3.chunk.js": "/soufian-portfolio/static/js/3.3a64bed3.chunk.js",
     "static/js/3.3a64bed3.chunk.js.map": "/soufian-portfolio/static/js/3.3a64bed3.chunk.js.map",
     "index.html": "/soufian-portfolio/index.html",
     "static/css/2.7f93eb10.chunk.css.map": "/soufian-portfolio/static/css/2.7f93eb10.chunk.css.map",
-    "static/css/main.637b372f.chunk.css.map": "/soufian-portfolio/static/css/main.637b372f.chunk.css.map",
-    "static/js/2.39d5fdb3.chunk.js.LICENSE.txt": "/soufian-portfolio/static/js/2.39d5fdb3.chunk.js.LICENSE.txt",
+    "static/css/main.57d1ad92.chunk.css.map": "/soufian-portfolio/static/css/main.57d1ad92.chunk.css.map",
+    "static/js/2.b9c76547.chunk.js.LICENSE.txt": "/soufian-portfolio/static/js/2.b9c76547.chunk.js.LICENSE.txt",
     "static/media/CV Soufian LABED.bfcfec9c.pdf": "/soufian-portfolio/static/media/CV Soufian LABED.bfcfec9c.pdf",
     "static/media/bg-Ai.b9820272.svg": "/soufian-portfolio/static/media/bg-Ai.b9820272.svg",
     "static/media/fuji.09dc661a.jpg": "/soufian-portfolio/static/media/fuji.09dc661a.jpg",
@@ -23,8 +23,8 @@
   "entrypoints": [
     "static/js/runtime-main.472233f8.js",
     "static/css/2.7f93eb10.chunk.css",
-    "static/js/2.39d5fdb3.chunk.js",
-    "static/css/main.637b372f.chunk.css",
-    "static/js/main.ed850ef8.chunk.js"
+    "static/js/2.b9c76547.chunk.js",
+    "static/css/main.57d1ad92.chunk.css",
+    "static/js/main.5c8e2fe9.chunk.js"
   ]
 }
