@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react';
+import React from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import './Stack.css';
@@ -12,8 +12,6 @@ import 'react-circular-progressbar/dist/styles.css';
 import content from '../content';
 
 export default function Stack() {
-  const [count, setCount] = useState(0);
-
   const Progress2 = ({done}) => {
     const [style2, setStyle2] = React.useState({});
     
@@ -36,9 +34,6 @@ export default function Stack() {
   }
 
 
-  
-
-  let opa = 1 
 
 
   return (

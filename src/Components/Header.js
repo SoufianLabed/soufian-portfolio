@@ -1,18 +1,10 @@
 import React from 'react';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import useStartAnimation from '../hook/useStartAnimation';
 import './header.css'
 import Download from './Download'
 
 export default function Header() {
-
-  const transition = (duration) =>
-    `transition duration-${duration} ease-in-out`;
-  const styleTranslate = 'translate-y-10 opacity-0';
-  const animated = useStartAnimation();
   return (
-  
-      
     <div className='h-screen header'>
     <div class="flex bg-white h-5/6 my-auto">
         <div class="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">

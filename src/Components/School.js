@@ -1,12 +1,7 @@
 import React from 'react';
-import { Link as ScrollLink } from 'react-scroll';
-import content from '../content';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './School.css'
-
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import night from '../img/night.jpg'
 
 
 export default function School() {
@@ -30,7 +25,8 @@ export default function School() {
                         
                     >
                         <h3 className="vertical-timeline-element-title text-xl font-bold">MASTER Dev Manager Fullstack</h3>
-                        <br/><h4 className="vertical-timeline-element-subtitle font-bold">EFREI Paris <i style={{marginLeft:"10px"}}class="fa fa-calendar" aria-hidden="true"></i> September 2021 - July 2023<a href="http://odf.univ-paris13.fr/fr/offre-de-formation/feuilleter-le-catalogue-1/sciences-technologies-sante-STS/dut-CB/dut-informatique-program-vdtin-316-2.html" id="ecole"></a></h4>
+                {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
+                        <br/><h4 className="vertical-timeline-element-subtitle font-bold">EFREI Paris <i style={{marginLeft: "10px"}} class="fa fa-calendar" aria-hidden="true"/> September 2021 - July 2023 <a href="http://odf.univ-paris13.fr/fr/offre-de-formation/feuilleter-le-catalogue-1/sciences-technologies-sante-STS/dut-CB/dut-informatique-program-vdtin-316-2.html" id="ecole"/></h4>
                         
                     
                     <p className="">The Master Dev Manager Full Stack Efrei Paris - 3iL aims to train dev experts, competent to contribute to and manage each stage of the creation cycle of a site or an application, from development to production. This master's degree delivers a level 7 RNCP title.</p>
