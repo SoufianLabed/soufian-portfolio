@@ -1,28 +1,26 @@
 {
   "files": {
     "main.css": "/soufian-portfolio/static/css/main.f7e953d7.chunk.css",
-    "main.js": "/soufian-portfolio/static/js/main.24183799.chunk.js",
-    "main.js.map": "/soufian-portfolio/static/js/main.24183799.chunk.js.map",
-    "runtime-main.js": "/soufian-portfolio/static/js/runtime-main.15849c17.js",
-    "runtime-main.js.map": "/soufian-portfolio/static/js/runtime-main.15849c17.js.map",
+    "main.js": "/soufian-portfolio/static/js/main.abb26334.chunk.js",
+    "main.js.map": "/soufian-portfolio/static/js/main.abb26334.chunk.js.map",
+    "runtime-main.js": "/soufian-portfolio/static/js/runtime-main.56806887.js",
+    "runtime-main.js.map": "/soufian-portfolio/static/js/runtime-main.56806887.js.map",
     "static/css/2.7f93eb10.chunk.css": "/soufian-portfolio/static/css/2.7f93eb10.chunk.css",
-    "static/js/2.b5b74f25.chunk.js": "/soufian-portfolio/static/js/2.b5b74f25.chunk.js",
-    "static/js/2.b5b74f25.chunk.js.map": "/soufian-portfolio/static/js/2.b5b74f25.chunk.js.map",
-    "static/js/3.cf2e560f.chunk.js": "/soufian-portfolio/static/js/3.cf2e560f.chunk.js",
-    "static/js/3.cf2e560f.chunk.js.map": "/soufian-portfolio/static/js/3.cf2e560f.chunk.js.map",
+    "static/js/2.0039ae17.chunk.js": "/soufian-portfolio/static/js/2.0039ae17.chunk.js",
+    "static/js/2.0039ae17.chunk.js.map": "/soufian-portfolio/static/js/2.0039ae17.chunk.js.map",
+    "static/js/3.268656d0.chunk.js": "/soufian-portfolio/static/js/3.268656d0.chunk.js",
+    "static/js/3.268656d0.chunk.js.map": "/soufian-portfolio/static/js/3.268656d0.chunk.js.map",
     "index.html": "/soufian-portfolio/index.html",
     "static/css/2.7f93eb10.chunk.css.map": "/soufian-portfolio/static/css/2.7f93eb10.chunk.css.map",
     "static/css/main.f7e953d7.chunk.css.map": "/soufian-portfolio/static/css/main.f7e953d7.chunk.css.map",
-    "static/js/2.b5b74f25.chunk.js.LICENSE.txt": "/soufian-portfolio/static/js/2.b5b74f25.chunk.js.LICENSE.txt",
-    "static/media/CV Soufian LABED.bfcfec9c.pdf": "/soufian-portfolio/static/media/CV Soufian LABED.bfcfec9c.pdf",
-    "static/media/logo.6ce24c58.svg": "/soufian-portfolio/static/media/logo.6ce24c58.svg",
-    "static/media/night.5aa3657e.jpg": "/soufian-portfolio/static/media/night.5aa3657e.jpg"
+    "static/js/2.0039ae17.chunk.js.LICENSE.txt": "/soufian-portfolio/static/js/2.0039ae17.chunk.js.LICENSE.txt",
+    "static/media/CV Soufian LABED.bfcfec9c.pdf": "/soufian-portfolio/static/media/CV Soufian LABED.bfcfec9c.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.15849c17.js",
+    "static/js/runtime-main.56806887.js",
     "static/css/2.7f93eb10.chunk.css",
-    "static/js/2.b5b74f25.chunk.js",
+    "static/js/2.0039ae17.chunk.js",
     "static/css/main.f7e953d7.chunk.css",
-    "static/js/main.24183799.chunk.js"
+    "static/js/main.abb26334.chunk.js"
   ]
 }
