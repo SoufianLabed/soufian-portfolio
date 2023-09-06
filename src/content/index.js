@@ -59,23 +59,23 @@ let text = {
       tech: [
         [
           {
-            img: process.env.PUBLIC_URL + '/assets/php.png',
-            alt: 'java',
-            value: 70
+            img: process.env.PUBLIC_URL + '/assets/angular.png',
+            alt: 'angular',
+            value: 80
           },
           {
             img: process.env.PUBLIC_URL + '/assets/python.png',
-            alt: 'react',
+            alt: 'python',
             value: 65
           },
           {
             img: process.env.PUBLIC_URL + '/assets/java.png',
-            alt: 'react',
+            alt: 'java',
             value: 80
           },
           {
             img: process.env.PUBLIC_URL + '/assets/mysql.png',
-            alt: 'react',
+            alt: 'mySQL',
             value: 85
           },
         ]
@@ -88,18 +88,18 @@ let text = {
         },
         {
           img: process.env.PUBLIC_URL + '/assets/node.png',
-          alt: 'react',
-          value: 75
+          alt: 'nodeJS',
+          value: 80
         },
         {
           img: process.env.PUBLIC_URL + '/assets/mongo.png',
-          alt: 'react',
+          alt: 'MongoDB',
           value: 70
         },
         {
-          img: process.env.PUBLIC_URL + '/assets/android.png',
-          alt: 'react',
-          value: 70
+          img: process.env.PUBLIC_URL + '/assets/spring-boot-logo.png',
+          alt: 'Spring Boot',
+          value: 90
         },
       ]],
       desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
